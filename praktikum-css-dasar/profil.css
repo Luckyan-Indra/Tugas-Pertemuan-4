@@ -1,0 +1,107 @@
+/* Universal */
+* {
+  box-sizing: border-box;
+}
+
+/*SELECTOR ELEMEN*/
+body {
+  margin: 0;
+  padding: 20px;
+  background: #e5eae8;          /* warna HEX */
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #444;
+}
+
+/*SELECTOR GRUP*/
+h1, h2 {
+  font-family: times 'Times New Roman', Times, serif, serif;
+}
+
+/*SELECTOR ID*/
+#container {
+  width: 640px;
+  max-width: 100%;
+  min-height: 680px;       
+  margin: 60px auto;
+  display: flex;             
+  flex-direction: column;
+  background: white;
+  border: 2px solid #2d524b;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.kepala {
+  background: #2d524b;
+  color: white;
+  padding: 56px 44px;    
+}
+
+.isi {
+  flex: 1;                    
+  padding: 48px 44px 52px;  
+}
+
+.deskripsi {
+   margin: 0 0 40px;    
+  font-size: 1.1rem;
+  line-height: 2;            
+  text-align: justify;
+}
+
+.dua-kolom {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 48px; 
+}
+
+/*SELECTOR DESCENDANT*/
+.kepala h1 {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.kepala p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.85);   /* warna RGBA */
+}
+
+.isi h2 {
+   margin: 0 0 16px;          
+  font-size: 1.4rem;
+  color: #2d524b;
+}
+
+.keahlian span {
+  display: inline-block;
+  margin: 0 8px 10px 0;
+  padding: 7px 16px;
+  font-size: 1rem;
+  background: #e0ebe8;
+  border: 1px solid #9db5af;
+  border-radius: 6px;
+  color: #2d524b;
+}
+
+ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+li {
+  font-size: 1.1rem;
+  line-height: 2.3;       
+}
+
+.tombol {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #2d524b;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
